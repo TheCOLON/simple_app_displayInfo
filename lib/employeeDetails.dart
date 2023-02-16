@@ -36,6 +36,26 @@ class DetailsPage extends StatelessWidget {
             Container(
               margin: const EdgeInsets.only(left: 20, right: 20),
               child: Row(
+                children: const <Widget>[
+                  SizedBox(height: 50),
+                  Text(
+                    "Jaxxon Co. Employee's Profile",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      color: Colors.cyan,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 40,
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(right: 40),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.only(left: 20, right: 20),
+              child: Row(
                 children: <Widget>[
                   const SizedBox(height: 50),
                   const Text(
